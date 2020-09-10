@@ -1,26 +1,19 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-.block-element {
-  background-color: green;
-  margin: 10px;
-  padding: 20px;
-}
-
-.ulNav {
-  background-color: yellow;
-  padding: 20px;
-  list-style: none;
-  text-align: center;
-}
-
-.ulNav li {
+.parent {
+  border: 2px black dotted;
   display: inline-block;
-  font-size: 20px;
-  margin: 10px 0;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 20px;
+}
+
+.box {
+  display: inline-block;
   background-color: red;
+  width: 100px;
+  height: 100px;
+}
+#dos {
+  background-color: gray;
 }
